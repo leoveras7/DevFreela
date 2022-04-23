@@ -1,35 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\repos\\DevFreela\\DevFreela.API\\DevFreela.API.csproj": {}
+    "E:\\Repos\\DevFreela\\DevFreela.API\\DevFreela.API.csproj": {}
   },
   "projects": {
-    "C:\\repos\\DevFreela\\DevFreela.API\\DevFreela.API.csproj": {
+    "E:\\Repos\\DevFreela\\DevFreela.API\\DevFreela.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\repos\\DevFreela\\DevFreela.API\\DevFreela.API.csproj",
+        "projectUniqueName": "E:\\Repos\\DevFreela\\DevFreela.API\\DevFreela.API.csproj",
         "projectName": "DevFreela.API",
-        "projectPath": "C:\\repos\\DevFreela\\DevFreela.API\\DevFreela.API.csproj",
-        "packagesPath": "C:\\Users\\leonardo.rodrigues\\.nuget\\packages\\",
-        "outputPath": "C:\\repos\\DevFreela\\DevFreela.API\\obj\\",
+        "projectPath": "E:\\Repos\\DevFreela\\DevFreela.API\\DevFreela.API.csproj",
+        "packagesPath": "C:\\Users\\leove\\.nuget\\packages\\",
+        "outputPath": "E:\\Repos\\DevFreela\\DevFreela.API\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\leonardo.rodrigues\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\leove\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "http://192.168.0.14:8084/nuget/nuget": {},
           "https://api.nuget.org/v3/index.json": {},
@@ -74,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
