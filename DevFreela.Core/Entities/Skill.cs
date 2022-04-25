@@ -15,6 +15,7 @@ namespace DevFreela.Core.Entities
 
         }
         public string Description { get; private set; }
+
         public DateTime CreatedAt { get; private set; }
     }
 }
