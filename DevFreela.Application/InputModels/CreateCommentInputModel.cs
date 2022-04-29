@@ -10,7 +10,7 @@ namespace DevFreela.Application.InputModels
     {
         public string Content { get; set; }
 
-        public int IdProject { get; set; }
+        public string IdProject { get; set; }
 
         public int IdUser { get; set; }
     }

@@ -43,5 +43,38 @@ namespace DevFreela.Core.Entities
         public ProjectStatusEnum Status { get; private set; }
 
         public List<ProjectComment> Comments { get; private set; }
+
+        public void Cancel()
+        {
+            if (Status == ProjectStatusEnum.InProgess || Status == ProjectStatusEnum.InProgess)
+            {
+                Status = ProjectStatusEnum.Cancelled;
+            }
+        }
+
+        public void Start()
+        {
+            if (Status == ProjectStatusEnum.Created)
+            {
+                Status = ProjectStatusEnum.InProgess;
+                StartedAt = DateTime.Now;
+            }
+        }
+
+        public void Finish()
+        {
+            if (Status == ProjectStatusEnum.InProgess)
+            {
+                Status = ProjectStatusEnum.InProgess;
+                FinishedAt = DateTime.Now;
+            }
+        }
+
+        public void Update(string title, string description, decimal totalCost)
+        {
+            Title = title;
+            Description = description;
+            TotalCost = totalCost;
+        }
     }
 }

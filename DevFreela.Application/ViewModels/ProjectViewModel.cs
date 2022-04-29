@@ -8,5 +8,16 @@ namespace DevFreela.Application.ViewModels
 {
     public class ProjectViewModel
     {
+        private DateTime createdAt;
+
+        public ProjectViewModel(string title, DateTime createdAt)
+        {
+            Title = title;
+            this.createdAt = createdAt;
+        }
+
+        public string  Title { get; private set; }
+
+        public DateTime CreateAt { get; private set; }
     }
 }
