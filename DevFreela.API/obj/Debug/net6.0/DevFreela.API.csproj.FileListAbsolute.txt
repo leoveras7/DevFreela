@@ -25,3 +25,9 @@ C:\repos\DevFreela\DevFreela.API\obj\Debug\net6.0\refint\DevFreela.API.dll
 C:\repos\DevFreela\DevFreela.API\obj\Debug\net6.0\DevFreela.API.pdb
 C:\repos\DevFreela\DevFreela.API\obj\Debug\net6.0\DevFreela.API.genruntimeconfig.cache
 C:\repos\DevFreela\DevFreela.API\obj\Debug\net6.0\ref\DevFreela.API.dll
+C:\repos\DevFreela\DevFreela.API\bin\Debug\net6.0\DevFreela.Application.dll
+C:\repos\DevFreela\DevFreela.API\bin\Debug\net6.0\DevFreela.Core.dll
+C:\repos\DevFreela\DevFreela.API\bin\Debug\net6.0\DevFreela.Infrastructure.dll
+C:\repos\DevFreela\DevFreela.API\bin\Debug\net6.0\DevFreela.Application.pdb
+C:\repos\DevFreela\DevFreela.API\bin\Debug\net6.0\DevFreela.Core.pdb
+C:\repos\DevFreela\DevFreela.API\bin\Debug\net6.0\DevFreela.Infrastructure.pdb
