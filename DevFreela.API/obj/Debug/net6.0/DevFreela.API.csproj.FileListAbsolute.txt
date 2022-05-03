@@ -31,3 +31,9 @@ C:\repos\DevFreela\DevFreela.API\bin\Debug\net6.0\DevFreela.Infrastructure.dll
 C:\repos\DevFreela\DevFreela.API\bin\Debug\net6.0\DevFreela.Application.pdb
 C:\repos\DevFreela\DevFreela.API\bin\Debug\net6.0\DevFreela.Core.pdb
 C:\repos\DevFreela\DevFreela.API\bin\Debug\net6.0\DevFreela.Infrastructure.pdb
+C:\repos\DevFreela\DevFreela.API\bin\Debug\net6.0\Humanizer.dll
+C:\repos\DevFreela\DevFreela.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\repos\DevFreela\DevFreela.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\repos\DevFreela\DevFreela.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\repos\DevFreela\DevFreela.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\repos\DevFreela\DevFreela.API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
