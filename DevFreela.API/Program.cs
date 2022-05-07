@@ -2,6 +2,7 @@ using DevFreela.API.Models;
 using DevFreela.Application.Services.Implementations;
 using DevFreela.Application.Services.Interfaces;
 using DevFreela.Infrastructure.Persistence;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,7 +14,10 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 //builder.Services.Configure<OpeningTimeOption>(Configuration.GetSection("OpeningTime"));
 
-builder.Services.AddSingleton<DevFreelaDbContext>();
+//builder.Services.AddSingleton<DevFreelaDbContext>();
+//builder.Services.AddDbContext<DevFreelaDbContext>(options => options.UseInMemoryDatabase("Devfreela"));
+builder.Services.AddDbContext<DevFreelaDbContext>(options =>
+            options.UseNpgsql(builder.Configuration.GetConnectionString("DevFreelaCs")));
 
 builder.Services.AddScoped<IProjectService, ProjectService>();
 builder.Services.AddScoped<IUserService, UserService>();
