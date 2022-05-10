@@ -11,6 +11,40 @@
           "lib/netstandard2.0/Humanizer.dll": {}
         }
       },
+      "MediatR/10.0.1": {
+        "type": "package",
+        "dependencies": {
+          "MediatR.Contracts": "1.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.1/MediatR.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/MediatR.dll": {}
+        }
+      },
+      "MediatR.Contracts/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MediatR.Contracts.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Contracts.dll": {}
+        }
+      },
+      "MediatR.Extensions.Microsoft.DependencyInjection/10.0.1": {
+        "type": "package",
+        "dependencies": {
+          "MediatR": "10.0.1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Authentication.JwtBearer/6.0.4": {
         "type": "package",
         "dependencies": {
@@ -485,7 +519,8 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "DevFreela.Core": "1.0.0",
-          "DevFreela.Infrastructure": "1.0.0"
+          "DevFreela.Infrastructure": "1.0.0",
+          "MediatR.Extensions.Microsoft.DependencyInjection": "10.0.1"
         },
         "compile": {
           "bin/placeholder/DevFreela.Application.dll": {}
@@ -535,6 +570,49 @@
         "lib/netstandard2.0/Humanizer.dll",
         "lib/netstandard2.0/Humanizer.xml",
         "logo.png"
+      ]
+    },
+    "MediatR/10.0.1": {
+      "sha512": "vnjbk4giDJzJelh34Ygt0eorApCKrRFB7j0pauFPY1oxfO3cEZ7FugBrIOjCM76SDGTOmPFfbfmVnz1t3iFrGA==",
+      "type": "package",
+      "path": "mediatr/10.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/netstandard2.1/MediatR.dll",
+        "lib/netstandard2.1/MediatR.xml",
+        "mediatr.10.0.1.nupkg.sha512",
+        "mediatr.nuspec"
+      ]
+    },
+    "MediatR.Contracts/1.0.1": {
+      "sha512": "NsRvOxthhkYml4DcBMyJsmym8C4MchioH7wxKVPEg7plFj9Euh/i4IcmZ3Gvgx6+K8obeuhPeJdoBl56wnuo3A==",
+      "type": "package",
+      "path": "mediatr.contracts/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/net461/MediatR.Contracts.dll",
+        "lib/net461/MediatR.Contracts.xml",
+        "lib/netstandard2.0/MediatR.Contracts.dll",
+        "lib/netstandard2.0/MediatR.Contracts.xml",
+        "mediatr.contracts.1.0.1.nupkg.sha512",
+        "mediatr.contracts.nuspec"
+      ]
+    },
+    "MediatR.Extensions.Microsoft.DependencyInjection/10.0.1": {
+      "sha512": "mYdfMvpkahCAj4tRfBoeMlUBZa2WthaONdQ4y5TtIyxcZYb5e7AE7c1eITTZVWcQhguxvD8AdExdaiAW6RhrVA==",
+      "type": "package",
+      "path": "mediatr.extensions.microsoft.dependencyinjection/10.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/netstandard2.1/MediatR.Extensions.Microsoft.DependencyInjection.dll",
+        "mediatr.extensions.microsoft.dependencyinjection.10.0.1.nupkg.sha512",
+        "mediatr.extensions.microsoft.dependencyinjection.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Authentication.JwtBearer/6.0.4": {
@@ -1379,6 +1457,7 @@
       "DevFreela.Application >= 1.0.0",
       "DevFreela.Core >= 1.0.0",
       "DevFreela.Infrastructure >= 1.0.0",
+      "MediatR.Extensions.Microsoft.DependencyInjection >= 10.0.1",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.4",
       "Microsoft.AspNetCore.Authentication.OpenIdConnect >= 6.0.4",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.4",
@@ -1387,25 +1466,37 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\leove\\.nuget\\packages\\": {}
+    "C:\\Users\\leonardo.rodrigues\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Repos\\DevFreela\\DevFreela.API\\DevFreela.API.csproj",
+      "projectUniqueName": "C:\\repos\\DevFreela\\DevFreela.API\\DevFreela.API.csproj",
       "projectName": "DevFreela.API",
-      "projectPath": "E:\\Repos\\DevFreela\\DevFreela.API\\DevFreela.API.csproj",
-      "packagesPath": "C:\\Users\\leove\\.nuget\\packages\\",
-      "outputPath": "E:\\Repos\\DevFreela\\DevFreela.API\\obj\\",
+      "projectPath": "C:\\repos\\DevFreela\\DevFreela.API\\DevFreela.API.csproj",
+      "packagesPath": "C:\\Users\\leonardo.rodrigues\\.nuget\\packages\\",
+      "outputPath": "C:\\repos\\DevFreela\\DevFreela.API\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\leove\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\leonardo.rodrigues\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "http://192.168.0.14:8084/nuget/nuget": {},
         "https://api.nuget.org/v3/index.json": {},
@@ -1415,14 +1506,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\Repos\\DevFreela\\DevFreela.Application\\DevFreela.Application.csproj": {
-              "projectPath": "E:\\Repos\\DevFreela\\DevFreela.Application\\DevFreela.Application.csproj"
+            "C:\\repos\\DevFreela\\DevFreela.Application\\DevFreela.Application.csproj": {
+              "projectPath": "C:\\repos\\DevFreela\\DevFreela.Application\\DevFreela.Application.csproj"
             },
-            "E:\\Repos\\DevFreela\\DevFreela.Core\\DevFreela.Core.csproj": {
-              "projectPath": "E:\\Repos\\DevFreela\\DevFreela.Core\\DevFreela.Core.csproj"
+            "C:\\repos\\DevFreela\\DevFreela.Core\\DevFreela.Core.csproj": {
+              "projectPath": "C:\\repos\\DevFreela\\DevFreela.Core\\DevFreela.Core.csproj"
             },
-            "E:\\Repos\\DevFreela\\DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj": {
-              "projectPath": "E:\\Repos\\DevFreela\\DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj"
+            "C:\\repos\\DevFreela\\DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj": {
+              "projectPath": "C:\\repos\\DevFreela\\DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj"
             }
           }
         }
@@ -1437,6 +1528,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "MediatR.Extensions.Microsoft.DependencyInjection": {
+            "target": "Package",
+            "version": "[10.0.1, )"
+          },
           "Microsoft.AspNetCore.Authentication.JwtBearer": {
             "target": "Package",
             "version": "[6.0.4, )"

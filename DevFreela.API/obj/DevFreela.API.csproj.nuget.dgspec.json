@@ -1,26 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Repos\\DevFreela\\DevFreela.API\\DevFreela.API.csproj": {}
+    "C:\\repos\\DevFreela\\DevFreela.API\\DevFreela.API.csproj": {}
   },
   "projects": {
-    "E:\\Repos\\DevFreela\\DevFreela.API\\DevFreela.API.csproj": {
+    "C:\\repos\\DevFreela\\DevFreela.API\\DevFreela.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Repos\\DevFreela\\DevFreela.API\\DevFreela.API.csproj",
+        "projectUniqueName": "C:\\repos\\DevFreela\\DevFreela.API\\DevFreela.API.csproj",
         "projectName": "DevFreela.API",
-        "projectPath": "E:\\Repos\\DevFreela\\DevFreela.API\\DevFreela.API.csproj",
-        "packagesPath": "C:\\Users\\leove\\.nuget\\packages\\",
-        "outputPath": "E:\\Repos\\DevFreela\\DevFreela.API\\obj\\",
+        "projectPath": "C:\\repos\\DevFreela\\DevFreela.API\\DevFreela.API.csproj",
+        "packagesPath": "C:\\Users\\leonardo.rodrigues\\.nuget\\packages\\",
+        "outputPath": "C:\\repos\\DevFreela\\DevFreela.API\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\leove\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\leonardo.rodrigues\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "http://192.168.0.14:8084/nuget/nuget": {},
           "https://api.nuget.org/v3/index.json": {},
@@ -30,14 +39,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\Repos\\DevFreela\\DevFreela.Application\\DevFreela.Application.csproj": {
-                "projectPath": "E:\\Repos\\DevFreela\\DevFreela.Application\\DevFreela.Application.csproj"
+              "C:\\repos\\DevFreela\\DevFreela.Application\\DevFreela.Application.csproj": {
+                "projectPath": "C:\\repos\\DevFreela\\DevFreela.Application\\DevFreela.Application.csproj"
               },
-              "E:\\Repos\\DevFreela\\DevFreela.Core\\DevFreela.Core.csproj": {
-                "projectPath": "E:\\Repos\\DevFreela\\DevFreela.Core\\DevFreela.Core.csproj"
+              "C:\\repos\\DevFreela\\DevFreela.Core\\DevFreela.Core.csproj": {
+                "projectPath": "C:\\repos\\DevFreela\\DevFreela.Core\\DevFreela.Core.csproj"
               },
-              "E:\\Repos\\DevFreela\\DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj": {
-                "projectPath": "E:\\Repos\\DevFreela\\DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj"
+              "C:\\repos\\DevFreela\\DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj": {
+                "projectPath": "C:\\repos\\DevFreela\\DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj"
               }
             }
           }
@@ -52,6 +61,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[6.0.4, )"
@@ -97,23 +110,32 @@
         }
       }
     },
-    "E:\\Repos\\DevFreela\\DevFreela.Application\\DevFreela.Application.csproj": {
+    "C:\\repos\\DevFreela\\DevFreela.Application\\DevFreela.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Repos\\DevFreela\\DevFreela.Application\\DevFreela.Application.csproj",
+        "projectUniqueName": "C:\\repos\\DevFreela\\DevFreela.Application\\DevFreela.Application.csproj",
         "projectName": "DevFreela.Application",
-        "projectPath": "E:\\Repos\\DevFreela\\DevFreela.Application\\DevFreela.Application.csproj",
-        "packagesPath": "C:\\Users\\leove\\.nuget\\packages\\",
-        "outputPath": "E:\\Repos\\DevFreela\\DevFreela.Application\\obj\\",
+        "projectPath": "C:\\repos\\DevFreela\\DevFreela.Application\\DevFreela.Application.csproj",
+        "packagesPath": "C:\\Users\\leonardo.rodrigues\\.nuget\\packages\\",
+        "outputPath": "C:\\repos\\DevFreela\\DevFreela.Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\leove\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\leonardo.rodrigues\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "http://192.168.0.14:8084/nuget/nuget": {},
           "https://api.nuget.org/v3/index.json": {},
@@ -123,11 +145,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\Repos\\DevFreela\\DevFreela.Core\\DevFreela.Core.csproj": {
-                "projectPath": "E:\\Repos\\DevFreela\\DevFreela.Core\\DevFreela.Core.csproj"
+              "C:\\repos\\DevFreela\\DevFreela.Core\\DevFreela.Core.csproj": {
+                "projectPath": "C:\\repos\\DevFreela\\DevFreela.Core\\DevFreela.Core.csproj"
               },
-              "E:\\Repos\\DevFreela\\DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj": {
-                "projectPath": "E:\\Repos\\DevFreela\\DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj"
+              "C:\\repos\\DevFreela\\DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj": {
+                "projectPath": "C:\\repos\\DevFreela\\DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj"
               }
             }
           }
@@ -141,6 +163,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -160,23 +188,32 @@
         }
       }
     },
-    "E:\\Repos\\DevFreela\\DevFreela.Core\\DevFreela.Core.csproj": {
+    "C:\\repos\\DevFreela\\DevFreela.Core\\DevFreela.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Repos\\DevFreela\\DevFreela.Core\\DevFreela.Core.csproj",
+        "projectUniqueName": "C:\\repos\\DevFreela\\DevFreela.Core\\DevFreela.Core.csproj",
         "projectName": "DevFreela.Core",
-        "projectPath": "E:\\Repos\\DevFreela\\DevFreela.Core\\DevFreela.Core.csproj",
-        "packagesPath": "C:\\Users\\leove\\.nuget\\packages\\",
-        "outputPath": "E:\\Repos\\DevFreela\\DevFreela.Core\\obj\\",
+        "projectPath": "C:\\repos\\DevFreela\\DevFreela.Core\\DevFreela.Core.csproj",
+        "packagesPath": "C:\\Users\\leonardo.rodrigues\\.nuget\\packages\\",
+        "outputPath": "C:\\repos\\DevFreela\\DevFreela.Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\leove\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\leonardo.rodrigues\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "http://192.168.0.14:8084/nuget/nuget": {},
           "https://api.nuget.org/v3/index.json": {},
@@ -216,23 +253,32 @@
         }
       }
     },
-    "E:\\Repos\\DevFreela\\DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj": {
+    "C:\\repos\\DevFreela\\DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Repos\\DevFreela\\DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj",
+        "projectUniqueName": "C:\\repos\\DevFreela\\DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj",
         "projectName": "DevFreela.Infrastructure",
-        "projectPath": "E:\\Repos\\DevFreela\\DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\leove\\.nuget\\packages\\",
-        "outputPath": "E:\\Repos\\DevFreela\\DevFreela.Infrastructure\\obj\\",
+        "projectPath": "C:\\repos\\DevFreela\\DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\leonardo.rodrigues\\.nuget\\packages\\",
+        "outputPath": "C:\\repos\\DevFreela\\DevFreela.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\leove\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\leonardo.rodrigues\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "http://192.168.0.14:8084/nuget/nuget": {},
           "https://api.nuget.org/v3/index.json": {},
@@ -242,8 +288,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\Repos\\DevFreela\\DevFreela.Core\\DevFreela.Core.csproj": {
-                "projectPath": "E:\\Repos\\DevFreela\\DevFreela.Core\\DevFreela.Core.csproj"
+              "C:\\repos\\DevFreela\\DevFreela.Core\\DevFreela.Core.csproj": {
+                "projectPath": "C:\\repos\\DevFreela\\DevFreela.Core\\DevFreela.Core.csproj"
               }
             }
           }
