@@ -22,7 +22,7 @@ namespace DevFreela.Application.Commands.StartProject
 
         public async Task<Unit> Handle(StartProjectCommand request, CancellationToken cancellationToken)
         {
-            var project = await _dbContext.Projects.SingleOrDefaultAsync(p => p.Id == request.Id);
+            var project = await _dbContext.Projects.SingleOrDefaultAsync(p => p.id == request.Id);
 
             project.Start();
             // _dbContext.SaveChanges();

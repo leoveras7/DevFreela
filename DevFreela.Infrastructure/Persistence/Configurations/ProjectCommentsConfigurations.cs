@@ -14,7 +14,7 @@ namespace DevFreela.Infrastructure.Persistence.Configurations
         public void Configure(EntityTypeBuilder<ProjectComment> builder)
         {
             builder
-               .HasKey(p => p.Id);
+               .HasKey(p => p.id);
 
             builder
                 .HasOne(p => p.Project)

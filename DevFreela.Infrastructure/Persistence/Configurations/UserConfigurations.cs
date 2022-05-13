@@ -14,7 +14,7 @@ namespace DevFreela.Infrastructure.Persistence.Configurations
         public void Configure(EntityTypeBuilder<User> builder)
         {
             builder
-               .HasKey(s => s.Id);
+               .HasKey(s => s.id);
 
             builder
                 .HasMany(u => u.Skills)

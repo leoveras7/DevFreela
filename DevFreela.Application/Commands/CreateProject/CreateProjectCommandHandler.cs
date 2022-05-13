@@ -26,7 +26,7 @@ namespace DevFreela.Application.Commands.CreateProject
 
             await _dbContext.SaveChangesAsync();
 
-            return project.Id;
+            return project.id;
         }
     }
 }

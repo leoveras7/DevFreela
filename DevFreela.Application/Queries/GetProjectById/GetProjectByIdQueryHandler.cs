@@ -23,12 +23,12 @@ namespace DevFreela.Application.Queries.GetProjectById
             var project = await _dbContext.Projects
                 .Include(p => p.Client)
                 .Include(p => p.Freelancer)
-                .SingleOrDefaultAsync(p => p.Id == request.Id);
+                .SingleOrDefaultAsync(p => p.id == request.Id);
 
             if (project == null) return null;
 
             var projectDetailsViewModel = new ProjectDetailsViewModel(
-                project.Id,
+                project.id,
                 project.Title,
                 project.Description,
                 project.TotalCost,

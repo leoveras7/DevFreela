@@ -19,7 +19,7 @@ namespace DevFreela.Application.Commands.DeleteProject
 
         public async Task<Unit> Handle(DeleteProjectCommand request, CancellationToken cancellationToken)
         {
-            var project = _dbContext.Projects.SingleOrDefault(p => p.Id == request.Id);
+            var project = _dbContext.Projects.SingleOrDefault(p => p.id == request.Id);
 
             project.Cancel();
 

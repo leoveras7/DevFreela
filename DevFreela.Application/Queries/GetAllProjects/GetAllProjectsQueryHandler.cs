@@ -1,6 +1,7 @@
 ﻿using DevFreela.Application.ViewModels;
 using DevFreela.Infrastructure.Persistence;
 using MediatR;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,7 +23,7 @@ namespace DevFreela.Application.Queries.GetAllProjects
             var projects = _dbContext.Projects;
 
             var projectsViewModel = await projects
-                .Select(p => new ProjectViewModel(p.Id, p.Title, p.CreatedAt))
+                .Select(p => new ProjectViewModel(p.id, p.Title, p.CreatedAt))
                 .ToListAsync();
 
             return projectsViewModel;

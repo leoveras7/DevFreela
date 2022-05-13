@@ -19,7 +19,7 @@ namespace DevFreela.Application.Commands.UpdateProject
 
         public async Task<Unit> Handle(UpdateProjectCommand request, CancellationToken cancellationToken)
         {
-            var project = _dbContext.Projects.SingleOrDefault(p => p.Id == request.Id);
+            var project = _dbContext.Projects.SingleOrDefault(p => p.id == request.Id);
 
             project.Update(request.Title, request.Description, request.TotalCost);
 

@@ -24,7 +24,7 @@ namespace DevFreela.Application.Commands.CreateUser
             await _dbContext.Users.AddAsync(user);
             await _dbContext.SaveChangesAsync();
 
-            return user.Id;
+            return user.id;
         }
     }
 }
