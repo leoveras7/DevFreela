@@ -22,7 +22,7 @@ builder.Services.AddEndpointsApiExplorer();
 //builder.Services.AddSingleton<DevFreelaDbContext>();
 //builder.Services.AddDbContext<DevFreelaDbContext>(options => options.UseInMemoryDatabase("Devfreela"));
 builder.Services.AddDbContext<DevFreelaDbContext>(options =>
-            options.UseNpgsql(builder.Configuration.GetConnectionString("DevFreelaCs")));
+            options.UseSqlServer(builder.Configuration.GetConnectionString("DevFreelaCs")));
 
 builder.Services.AddScoped<IProjectRepository, ProjectRepository>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
