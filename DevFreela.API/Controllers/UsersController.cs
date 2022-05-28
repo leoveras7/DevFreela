@@ -41,8 +41,8 @@ namespace DevFreela.API.Controllers
         }
 
         // api/users/1/login
-        [HttpPut("{id}/login")]
-        public IActionResult Login(int id, [FromBody] LoginModel login)
+        [HttpPut("login")]
+        public IActionResult Login([FromBody] LoginModel login)
         {
             // TODO: Para Módulo de Autenticação e Autorização
 
