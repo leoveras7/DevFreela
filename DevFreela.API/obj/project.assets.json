@@ -2384,11 +2384,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\repos\\DevFreela\\DevFreela.API\\DevFreela.API.csproj",
+      "projectUniqueName": "E:\\repos\\DevFreela\\DevFreela.API\\DevFreela.API.csproj",
       "projectName": "DevFreela.API",
-      "projectPath": "D:\\repos\\DevFreela\\DevFreela.API\\DevFreela.API.csproj",
+      "projectPath": "E:\\repos\\DevFreela\\DevFreela.API\\DevFreela.API.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\repos\\DevFreela\\DevFreela.API\\obj\\",
+      "outputPath": "E:\\repos\\DevFreela\\DevFreela.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2405,14 +2405,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\repos\\DevFreela\\DevFreela.Application\\DevFreela.Application.csproj": {
-              "projectPath": "D:\\repos\\DevFreela\\DevFreela.Application\\DevFreela.Application.csproj"
+            "E:\\repos\\DevFreela\\DevFreela.Application\\DevFreela.Application.csproj": {
+              "projectPath": "E:\\repos\\DevFreela\\DevFreela.Application\\DevFreela.Application.csproj"
             },
-            "D:\\repos\\DevFreela\\DevFreela.Core\\DevFreela.Core.csproj": {
-              "projectPath": "D:\\repos\\DevFreela\\DevFreela.Core\\DevFreela.Core.csproj"
+            "E:\\repos\\DevFreela\\DevFreela.Core\\DevFreela.Core.csproj": {
+              "projectPath": "E:\\repos\\DevFreela\\DevFreela.Core\\DevFreela.Core.csproj"
             },
-            "D:\\repos\\DevFreela\\DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj": {
-              "projectPath": "D:\\repos\\DevFreela\\DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj"
+            "E:\\repos\\DevFreela\\DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj": {
+              "projectPath": "E:\\repos\\DevFreela\\DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj"
             }
           }
         }

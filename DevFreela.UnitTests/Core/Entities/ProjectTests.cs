@@ -11,7 +11,7 @@ namespace DevFreela.UnitTests.Core.Entities
         [Fact]
         public void TestIfProjectStarWorks()
         {
-
+            //teste
         }
     }
 }

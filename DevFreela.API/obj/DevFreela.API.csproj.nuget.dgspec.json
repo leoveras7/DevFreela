@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\repos\\DevFreela\\DevFreela.API\\DevFreela.API.csproj": {}
+    "E:\\repos\\DevFreela\\DevFreela.API\\DevFreela.API.csproj": {}
   },
   "projects": {
-    "D:\\repos\\DevFreela\\DevFreela.API\\DevFreela.API.csproj": {
+    "E:\\repos\\DevFreela\\DevFreela.API\\DevFreela.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\repos\\DevFreela\\DevFreela.API\\DevFreela.API.csproj",
+        "projectUniqueName": "E:\\repos\\DevFreela\\DevFreela.API\\DevFreela.API.csproj",
         "projectName": "DevFreela.API",
-        "projectPath": "D:\\repos\\DevFreela\\DevFreela.API\\DevFreela.API.csproj",
+        "projectPath": "E:\\repos\\DevFreela\\DevFreela.API\\DevFreela.API.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\repos\\DevFreela\\DevFreela.API\\obj\\",
+        "outputPath": "E:\\repos\\DevFreela\\DevFreela.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,14 +28,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\repos\\DevFreela\\DevFreela.Application\\DevFreela.Application.csproj": {
-                "projectPath": "D:\\repos\\DevFreela\\DevFreela.Application\\DevFreela.Application.csproj"
+              "E:\\repos\\DevFreela\\DevFreela.Application\\DevFreela.Application.csproj": {
+                "projectPath": "E:\\repos\\DevFreela\\DevFreela.Application\\DevFreela.Application.csproj"
               },
-              "D:\\repos\\DevFreela\\DevFreela.Core\\DevFreela.Core.csproj": {
-                "projectPath": "D:\\repos\\DevFreela\\DevFreela.Core\\DevFreela.Core.csproj"
+              "E:\\repos\\DevFreela\\DevFreela.Core\\DevFreela.Core.csproj": {
+                "projectPath": "E:\\repos\\DevFreela\\DevFreela.Core\\DevFreela.Core.csproj"
               },
-              "D:\\repos\\DevFreela\\DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj": {
-                "projectPath": "D:\\repos\\DevFreela\\DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj"
+              "E:\\repos\\DevFreela\\DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj": {
+                "projectPath": "E:\\repos\\DevFreela\\DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj"
               }
             }
           }
@@ -99,14 +99,14 @@
         }
       }
     },
-    "D:\\repos\\DevFreela\\DevFreela.Application\\DevFreela.Application.csproj": {
+    "E:\\repos\\DevFreela\\DevFreela.Application\\DevFreela.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\repos\\DevFreela\\DevFreela.Application\\DevFreela.Application.csproj",
+        "projectUniqueName": "E:\\repos\\DevFreela\\DevFreela.Application\\DevFreela.Application.csproj",
         "projectName": "DevFreela.Application",
-        "projectPath": "D:\\repos\\DevFreela\\DevFreela.Application\\DevFreela.Application.csproj",
+        "projectPath": "E:\\repos\\DevFreela\\DevFreela.Application\\DevFreela.Application.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\repos\\DevFreela\\DevFreela.Application\\obj\\",
+        "outputPath": "E:\\repos\\DevFreela\\DevFreela.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -123,11 +123,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\repos\\DevFreela\\DevFreela.Core\\DevFreela.Core.csproj": {
-                "projectPath": "D:\\repos\\DevFreela\\DevFreela.Core\\DevFreela.Core.csproj"
+              "E:\\repos\\DevFreela\\DevFreela.Core\\DevFreela.Core.csproj": {
+                "projectPath": "E:\\repos\\DevFreela\\DevFreela.Core\\DevFreela.Core.csproj"
               },
-              "D:\\repos\\DevFreela\\DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj": {
-                "projectPath": "D:\\repos\\DevFreela\\DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj"
+              "E:\\repos\\DevFreela\\DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj": {
+                "projectPath": "E:\\repos\\DevFreela\\DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj"
               }
             }
           }
@@ -170,14 +170,14 @@
         }
       }
     },
-    "D:\\repos\\DevFreela\\DevFreela.Core\\DevFreela.Core.csproj": {
+    "E:\\repos\\DevFreela\\DevFreela.Core\\DevFreela.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\repos\\DevFreela\\DevFreela.Core\\DevFreela.Core.csproj",
+        "projectUniqueName": "E:\\repos\\DevFreela\\DevFreela.Core\\DevFreela.Core.csproj",
         "projectName": "DevFreela.Core",
-        "projectPath": "D:\\repos\\DevFreela\\DevFreela.Core\\DevFreela.Core.csproj",
+        "projectPath": "E:\\repos\\DevFreela\\DevFreela.Core\\DevFreela.Core.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\repos\\DevFreela\\DevFreela.Core\\obj\\",
+        "outputPath": "E:\\repos\\DevFreela\\DevFreela.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -224,14 +224,14 @@
         }
       }
     },
-    "D:\\repos\\DevFreela\\DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj": {
+    "E:\\repos\\DevFreela\\DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\repos\\DevFreela\\DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj",
+        "projectUniqueName": "E:\\repos\\DevFreela\\DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj",
         "projectName": "DevFreela.Infrastructure",
-        "projectPath": "D:\\repos\\DevFreela\\DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj",
+        "projectPath": "E:\\repos\\DevFreela\\DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\repos\\DevFreela\\DevFreela.Infrastructure\\obj\\",
+        "outputPath": "E:\\repos\\DevFreela\\DevFreela.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -248,8 +248,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\repos\\DevFreela\\DevFreela.Core\\DevFreela.Core.csproj": {
-                "projectPath": "D:\\repos\\DevFreela\\DevFreela.Core\\DevFreela.Core.csproj"
+              "E:\\repos\\DevFreela\\DevFreela.Core\\DevFreela.Core.csproj": {
+                "projectPath": "E:\\repos\\DevFreela\\DevFreela.Core\\DevFreela.Core.csproj"
               }
             }
           }
