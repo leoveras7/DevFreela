@@ -5,7 +5,7 @@
         [Fact]
         public void TestIfProjectStartWorks()
         {
-            var project = new Project("Nome De Teste", "Descricao de Teste", 1, 2, 10000);
+            var project = new Project("Nome De Teste", "Descricao de Testes", 1, 2, 10000);
 
             Assert.Equal(ProjectStatusEnum.Created, project.Status);
             Assert.Null(project.StartedAt);
